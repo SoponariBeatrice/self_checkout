@@ -1,0 +1,29 @@
+POST http://localhost:8090/api/auth/product
+Content-Type: application/json
+Cookie: key=first-value
+
+{ "name" : "Nesqusssick", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+###
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/json
+Cookie: key=first-value
+
+[
+    { "name" : "Snjickers", "description": "best chocolate", "quantity": "200", "category": "chocolate", "price": "10", "barcode": "5000159544559" }
+
+]
+###
+POST http://localhost:8090/api/auth/product
+Content-Type: application/xml
+Accept: application/xml
+Content-Length: 118
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>

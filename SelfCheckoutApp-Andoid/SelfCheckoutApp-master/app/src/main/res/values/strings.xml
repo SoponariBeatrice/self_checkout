@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SelfCheckout</string>
+    <string name="cardname">Card Name</string>
+    <string name="cardname_helper_text">Enter to card name. You\'ll enter max 25 characters.</string>
+    <string name="pay">Pay</string>
+    <string name="cardno">Card No</string>
+    <string name="cardno_helper_text">You must enter your 16-digit card number.</string>
+    <string name="day_hint">12</string>
+    <string name="cardmonth">Month</string>
+    <string name="cardyear">Year</string>
+    <string name="cardcv">Cv Code</string>
+    <string name="cardyear_error_text">You must enter 2-digit characters and you\'ll enter to number the most digit-value is \'99\'</string>
+    <string name="cardmonth_error_text">You must enter 2-digit characters and you\'ll enter to number the most digit-value is \'12\'</string>
+    <string name="cardcv_error_text">You must enter 3-digit characters</string>
+    <string name="subtotal"> Subtotal: </string>
+    <string name="cardexpired_error_text">Your card has expired. Please enter the usage date correctly.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

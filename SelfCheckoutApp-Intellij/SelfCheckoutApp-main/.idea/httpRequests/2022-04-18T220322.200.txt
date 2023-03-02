@@ -1,0 +1,1 @@
+ProductData{name='Nesquick', description='Very good cereals', quantity=200.0, id=null, barcode='5000000000000', category='cereals', price='10.0'}

@@ -1,0 +1,33 @@
+Functionalities:
+
+1. Sign up/ Sign in
+	-> nume, prenume, zi de nastere, adresa de email, parola
+
+Vom avea doua tipuri de useri:
+
+2. Client :
+	2.1 Pagina principala - afisate toate magazinele (dupa locatie -> cele mai apropiate prima data)
+		     - cautare magazin->(o afisare pe categorii -> flori, panificatie, legume fructe etc) cautare produse -> toate produsele din magazin pentru disponibilitate si pret
+	2.2 My account - date personale 
+	      - adauga card de credit pentru plata (my cards)
+	      - last shopping sessions
+	2.3 Start shopping session - scan products
+			  - see your cart
+				- delete products if not needed anymore
+				- increase quantity
+			  - pay -> payment will be processed and a qr code will be generated as bill to exit the store
+
+3. Admin
+        -> Adminul trimite cererea pentru update-ul datelor de la fiecare supermarket
+	-> Poate adauga/sterge un supermarket sau un user
+	
+
+4. Generarea unui raport cu cele mai vandute produse din fiecare categorie din ziua respectiva
+	-> generat in aplicatie in contul administratorului 
+
+
+Tabele baza de date: 1. Users: nume, prenume, zi de nastere, adresa de email, parola, rol
+		     2. Produse: nume, cantitate, pret, descriere, numeSupermarket, cod de bare, categorie
+		     3. Supermarket: numeSupermarket, dataInceperiiColaborarii, persoanaContact, locatiiDisponibile,contul in care se vireaza banii, formatul in care se primesc datele(json, xml, ..)
+		     
+		    

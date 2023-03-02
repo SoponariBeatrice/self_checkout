@@ -1,0 +1,770 @@
+POST http://localhost:8090/api/auth/product
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product/3614229326895
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product/3614229326895
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product/3614229326895
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product/3614229326895
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+GET http://localhost:8090/api/auth/product/3614229326895
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+<?xml version="1.0" encoding="utf-8"?>:
+<Request>:
+    <name>choco</name>:
+    <description>good chocolate</description>:
+    <quantity>100</quantity>:
+    <category>sweets</category>:
+    <price>22</price>:
+    <barcode>000988777777</barcode>:
+</Request>:
+
+<> 2022-04-18T223206.400.html
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/json
+
+[
+    { "name" : "Snjickers", "description": "best chocolate", "quantity": "200", "category": "chocolate", "price": "10", "barcode": "5000159544559" }
+
+]
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>choco</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>sssss</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product
+Content-Type: application/json
+
+{ "name" : "Nesqusssick", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+
+<> 2022-04-18T221214.200.txt
+
+###
+
+POST http://localhost:8090/api/product/product
+Content-Type: application/json
+
+{ "name" : "Nesquick", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/api/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/api/auth/product
+Content-Type: application/json
+
+{ "name" : "Nesquick", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+
+<> 2022-04-18T220322.200.txt
+
+###
+
+POST http://localhost:8090/api/auth/product
+Content-Type: application/json
+
+{ "name" : "Nesquick Cereals", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+
+###
+
+POST http://localhost:8090/api/auth/product
+Content-Type: application/json
+
+{ "name" : "Nesquick Cereals", "description": "Very good cereals", "quantity": "200", "category": "cereals", "price": "10", "barcode": "5000000000000" }
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/aaaproduct-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/productrtt/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+
+POST http://localhost:8090/product/product-list
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <name>Chocolate</name>
+    <description>good chocolate</description>
+    <quantity>100</quantity>
+    <category>sweets</category>
+    <price>22</price>
+    <barcode>000988777777</barcode>
+
+</Request>
+
+###
+

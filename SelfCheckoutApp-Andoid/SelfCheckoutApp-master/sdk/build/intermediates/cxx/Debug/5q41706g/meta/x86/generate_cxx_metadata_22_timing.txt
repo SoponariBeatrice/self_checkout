@@ -1,0 +1,82 @@
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 19ms]
+  create-invalidation-state 16ms
+  [gap of 21ms]
+  write-metadata-json-to-file 10ms
+generate_cxx_metadata completed in 70ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 21ms]
+  create-invalidation-state 17ms
+  [gap of 17ms]
+  generate-extra-metadata-files 11ms
+  [gap of 22ms]
+  write-metadata-json-to-file 12ms
+generate_cxx_metadata completed in 105ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 44ms]
+  create-invalidation-state 26ms
+  [gap of 16ms]
+  generate-extra-metadata-files 10ms
+  [gap of 22ms]
+  write-metadata-json-to-file 18ms
+generate_cxx_metadata completed in 144ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 24ms]
+  create-invalidation-state 13ms
+  [gap of 26ms]
+  write-metadata-json-to-file 12ms
+generate_cxx_metadata completed in 80ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 17ms]
+  create-invalidation-state 21ms
+  [gap of 27ms]
+  write-metadata-json-to-file 12ms
+generate_cxx_metadata completed in 83ms
+
+# C/C++ build system timings
+generate_cxx_metadata 29ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 30ms]
+  create-invalidation-state 12ms
+  [gap of 31ms]
+  write-metadata-json-to-file 11ms
+generate_cxx_metadata completed in 92ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 34ms]
+  create-invalidation-state 25ms
+  [gap of 40ms]
+  write-metadata-json-to-file 23ms
+generate_cxx_metadata completed in 129ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 36ms]
+  create-invalidation-state 42ms
+  [gap of 97ms]
+  generate-extra-metadata-files 74ms
+  [gap of 38ms]
+  write-metadata-json-to-file 77ms
+  [gap of 109ms]
+generate_cxx_metadata completed in 473ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  [gap of 20ms]
+  create-invalidation-state 18ms
+  [gap of 27ms]
+  write-metadata-json-to-file 11ms
+generate_cxx_metadata completed in 81ms
+
