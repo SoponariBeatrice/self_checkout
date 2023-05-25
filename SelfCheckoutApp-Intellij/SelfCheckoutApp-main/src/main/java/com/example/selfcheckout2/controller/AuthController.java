@@ -4,6 +4,7 @@ import com.example.selfcheckout2.auth.LoginRequest;
 import com.example.selfcheckout2.auth.MessageResponse;
 import com.example.selfcheckout2.auth.SignupRequest;
 import com.example.selfcheckout2.service.AuthService;
+import com.example.selfcheckout2.service.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 
@@ -34,5 +35,8 @@ public class AuthController {
         return "you are authorized";
     }
 
-
+    @GetMapping("/user/me")
+    public UserDetailsImpl getUserEmail(){
+        return authService.getLoggedUserDetails();
+    }
 }

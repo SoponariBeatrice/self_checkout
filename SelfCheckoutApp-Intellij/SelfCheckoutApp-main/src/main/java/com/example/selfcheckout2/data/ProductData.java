@@ -9,6 +9,16 @@ public class ProductData {
     public String category;
     public float price;
 
+    public long supermarketId;
+
+    public long getSupermarketId() {
+        return supermarketId;
+    }
+
+    public void setSupermarketId(long supermarketId) {
+        this.supermarketId = supermarketId;
+    }
+
     public ProductData() {
     }
 
@@ -19,6 +29,17 @@ public class ProductData {
         this.barcode = barcode;
         this.category = category;
         this.price = price;
+    }
+
+    public ProductData(String name, String description, float quantity, String barcode, String category, float price, Long id, Long supermarketId) {
+        this.name = name;
+        this.description = description;
+        this.quantity = quantity;
+        this.barcode = barcode;
+        this.category = category;
+        this.price = price;
+        this.id = id;
+        this.supermarketId = supermarketId;
     }
 
     public String getName() {

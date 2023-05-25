@@ -8,5 +8,5 @@ import java.util.List;
 public interface IBillService {
     BillData saveBill(BillData bill);
     BillData getBillById(final Long billId);
-    List<BillData> getAllBills(Long idUser);
+    List<BillData> getAllBillsByUserId(Long idUser);
 }

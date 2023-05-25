@@ -1,0 +1,28 @@
+
+^
+java:S6208_"CMerge the previous cases into this one using comma-separated label.(•ÈÆıÿÿÿÿ
+Y
+java:S6208e"CMerge the previous cases into this one using comma-separated label.(»ÑşÈ
+A
+java:S5411‘"*Use the primitive boolean expression here.(×µÀü
+—
+java:S1186D"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(àíğ
+v
+java:S1450@"[Remove the "clientSecret" field and declare it as a local variable in the relevant methods.(¾¥´éüÿÿÿÿ
+j
+java:S1450B"TRemove the "error" field and declare it as a local variable in the relevant methods.(²¸¶‡
+x
+java:S1450A"]Remove the "requiresAction" field and declare it as a local variable in the relevant methods.(‰Š×ûÿÿÿÿ
+O
+java:S3400Y"9Remove this method and declare a constant for this value.(ùı¨Â
+B
+java:S1172U",Remove this unused method parameter "items".(ÑüùÅ
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(‘ïõ©
+H
+java:S1068"2Remove this unused "publishableKey" private field.(»Ã³Ã
+K
+java:S1068@"0Remove this unused "clientSecret" private field.(¾¥´éüÿÿÿÿ
+M
+java:S1068A"2Remove this unused "requiresAction" private field.(‰Š×ûÿÿÿÿ
+?
+java:S1068B")Remove this unused "error" private field.(²¸¶‡

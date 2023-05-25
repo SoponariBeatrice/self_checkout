@@ -1,5 +1,10 @@
 package com.example.selfcheckout2.data;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class SupermarketData {
     public String name;
     public String collaborationStartDate;
@@ -8,6 +13,11 @@ public class SupermarketData {
     public String account;
     public String dataFormat;
 
+    public double latitude;
+
+    public double longitude;
+    public ScheduleData scheduleData;
+    Long id;
     public String getName() {
         return name;
     }
@@ -16,13 +26,29 @@ public class SupermarketData {
         this.name = name;
     }
 
-    public SupermarketData(String name, String collaborationStartDate, String emailContact, String address, String account, String dataFormat) {
+    public SupermarketData(String name, String collaborationStartDate, String emailContact, String address, String account, String dataFormat, double latitude, double longitude, ScheduleData scheduleData) {
         this.name = name;
         this.collaborationStartDate = collaborationStartDate;
         this.emailContact = emailContact;
         this.address = address;
         this.account = account;
         this.dataFormat = dataFormat;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.scheduleData = scheduleData;
+    }
+
+    public SupermarketData(String name, String collaborationStartDate, String emailContact, String address, String account, String dataFormat, double latitude, double longitude, ScheduleData scheduleData, Long id) {
+        this.name = name;
+        this.collaborationStartDate = collaborationStartDate;
+        this.emailContact = emailContact;
+        this.address = address;
+        this.account = account;
+        this.dataFormat = dataFormat;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.scheduleData = scheduleData;
+        this.id = id;
     }
     public SupermarketData() {
     }

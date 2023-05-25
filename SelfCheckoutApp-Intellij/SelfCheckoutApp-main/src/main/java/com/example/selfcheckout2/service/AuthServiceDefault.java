@@ -6,6 +6,7 @@ import com.example.selfcheckout2.data.User;
 import com.example.selfcheckout2.repository.RoleRepository;
 import com.example.selfcheckout2.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -46,13 +47,13 @@ public class AuthServiceDefault implements AuthService {
                 new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
 
         SecurityContextHolder.getContext().setAuthentication(authentication);
-        String jwt = jwtUtils.generateJwtToken(authentication);
-
+        String jwt = "Bearer " + jwtUtils.generateJwtToken(authentication);
         UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
         List<String> roles = userDetails.getAuthorities().stream()
                 .map(item -> item.getAuthority())
                 .collect(Collectors.toList());
-        System.out.println("TOKEN = " + jwt);
+
+
         return ResponseEntity.ok(new JwtResponse(jwt,
                 userDetails.getId(),
                 userDetails.getUsername(),
@@ -101,6 +102,11 @@ public class AuthServiceDefault implements AuthService {
         user.setRoles(roles);
         userRepository.save(user);
         return new MessageResponse("User registered successfully!");
+    }
+
+    public UserDetailsImpl getLoggedUserDetails() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        return ((UserDetailsImpl) authentication.getPrincipal());
     }
 }
 

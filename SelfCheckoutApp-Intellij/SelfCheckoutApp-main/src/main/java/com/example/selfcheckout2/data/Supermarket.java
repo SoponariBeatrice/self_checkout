@@ -1,9 +1,15 @@
 package com.example.selfcheckout2.data;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "supermarket")
+@Getter
+@Setter
 public class Supermarket {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -14,6 +20,26 @@ public class Supermarket {
     public String address;
     public String account;
     public String dataFormat;
+
+    public double latitude;
+    public double longitude;
+
+    public String endpoint;
+
+    @OneToOne(mappedBy = "supermarket", cascade = CascadeType.ALL)
+    @PrimaryKeyJoinColumn
+    public Schedule schedule;
+
+    @OneToMany(mappedBy = "supermarket")
+    public List<Product> products;
+
+    public String getEndpoint() {
+        return endpoint;
+    }
+
+    public void setEndpoint(String endpoint) {
+        this.endpoint = endpoint;
+    }
 
     public Long getId() {
         return id;

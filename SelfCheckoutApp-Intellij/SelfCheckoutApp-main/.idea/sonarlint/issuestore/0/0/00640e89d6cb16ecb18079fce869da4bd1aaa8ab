@@ -1,0 +1,15 @@
+
+u
+java:S1192S"ZDefine a constant instead of duplicating this literal "Error: Role is not found." 3 times.(ÉÿÊ–ùÿÿÿÿ
+`
+java:S1301W"KReplace this "switch" statement by "if" statements to increase readability.(¶„æ
+@
+java:S5411B"*Use the primitive boolean expression here.(‡Ö…²
+@
+java:S5411F"*Use the primitive boolean expression here.(Œ‰ÓŒ
+h
+java:S62046"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+a
+java:S16125"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½
+u
+java:S1128	"SRemove this unused import 'org.springframework.data.crossstore.ChangeSetPersister'.(ƒ©¨ùþÿÿÿÿ8®ñŸ•„1

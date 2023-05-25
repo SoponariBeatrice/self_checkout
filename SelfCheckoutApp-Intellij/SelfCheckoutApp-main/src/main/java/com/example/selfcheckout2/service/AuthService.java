@@ -8,4 +8,5 @@ public interface AuthService {
     ResponseEntity<?> authenticateUser(LoginRequest loginRequest);
 
     MessageResponse registerUser(SignupRequest signUpRequest);
+    UserDetailsImpl getLoggedUserDetails();
 }

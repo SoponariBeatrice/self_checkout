@@ -12,4 +12,10 @@ public interface SupermarketService {
     void saveSupermarket(SupermarketData supermarket);
     SupermarketData getSupermarketById(final Long supermarketId);
     List<SupermarketData> getAll();
+
+    List<SupermarketData> getSupermarketsByKeyword(String keyword);
+
+    SupermarketData getSupermarketByAdministrator(String administratorEmail);
+
+    SupermarketData updateSupermarket(SupermarketData supermarketData, Long id);
 }

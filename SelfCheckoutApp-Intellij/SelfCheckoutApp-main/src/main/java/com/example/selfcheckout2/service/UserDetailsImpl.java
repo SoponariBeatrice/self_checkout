@@ -2,6 +2,7 @@ package com.example.selfcheckout2.service;
 
 import com.example.selfcheckout2.data.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+@RequiredArgsConstructor
 public class UserDetailsImpl implements UserDetails {
     private static final long serialVersionUID = 1L;
 
@@ -25,6 +27,7 @@ public class UserDetailsImpl implements UserDetails {
     private String firstName;
     private String lastName;
 
+
     public UserDetailsImpl(Long id, String firstName, String lastName, String username, String email, String password,
                            Collection<? extends GrantedAuthority> authorities) {
         this.id = id;
@@ -34,6 +37,7 @@ public class UserDetailsImpl implements UserDetails {
         this.email = email;
         this.password = password;
         this.authorities = authorities;
+
     }
 
     public static UserDetailsImpl build(User user) {

@@ -1,0 +1,13 @@
+
+m
+java:S3655)"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(³âŒñ8›øçÒ„1
+U
+java:S1854""?Remove this useless assignment to local variable "authorities".(†âì
+Q	java:S125"<This block of commented-out lines of code should be removed.(Õ¸í
+F
+java:S1481""0Remove this unused "authorities" local variable.(†âì
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(¿î’Ìıÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ

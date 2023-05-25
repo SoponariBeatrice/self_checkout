@@ -9,7 +9,7 @@ import javax.persistence.Access;
 import java.util.List;
 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping("/api/auth")
+@RequestMapping("/api")
 @RestController
 public class BillController {
     @Autowired
@@ -22,8 +22,14 @@ public class BillController {
     }
 
     @GetMapping("/get-all-bills/{idUser}")
-    public List<BillData> getAllBills(@PathVariable("idUser") Long idUser)
+    public List<BillData> getAllBillsByUser(@PathVariable("idUser") Long idUser)
     {
-        return billService.getAllBills(idUser);
+        return billService.getAllBillsByUserId(idUser);
+    }
+
+    @GetMapping("/bills")
+    public List<BillData> getAllBills()
+    {
+       return billService.getAllBills();
     }
 }

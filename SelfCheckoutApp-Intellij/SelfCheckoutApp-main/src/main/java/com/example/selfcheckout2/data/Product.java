@@ -8,13 +8,32 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
+    public String barcode;
+
     public String name;
     public String description;
     public float quantity;
 
-    public String barcode;
-    public String category;
+
     public float price;
+
+    @ManyToOne
+    @JoinColumn(name="category_id", nullable=false)
+    private Category category;
+
+    @ManyToOne
+    @JoinColumn(name = "supermarket_id", nullable = false)
+    public Supermarket supermarket;
+
+
+    public Supermarket getSupermarket() {
+        return supermarket;
+    }
+
+    public void setSupermarket(Supermarket supermarket) {
+        this.supermarket = supermarket;
+    }
 
     public Long getId() {
         return id;
@@ -51,13 +70,22 @@ public class Product {
     public Product() {
     }
 
-    public Product(String name, String description, float quantity, String barcode, String category, float price) {
+    public Product(String name, String description, float quantity, String barcode, float price, Category category) {
         this.name = name;
         this.description = description;
         this.quantity = quantity;
         this.barcode = barcode;
-        this.category = category;
         this.price = price;
+        this.category = category;
+    }
+    public Product(String name, String description, float quantity, String barcode, float price, Supermarket supermarket, Category category) {
+        this.name = name;
+        this.description = description;
+        this.quantity = quantity;
+        this.barcode = barcode;
+        this.price = price;
+        this.supermarket = supermarket;
+        this.category = category;
     }
 
     public String getBarcode() {
@@ -68,11 +96,11 @@ public class Product {
         this.barcode = barcode;
     }
 
-    public String getCategory() {
+    public Category getCategory() {
         return category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(Category category) {
         this.category = category;
     }
 

@@ -27,4 +27,21 @@ public class SupermarketController {
     {
         return service.getAll();
     }
+
+    @GetMapping("/supermarkets/{keyword}")
+    public List<SupermarketData> getSupermarketsByKeyword(@PathVariable String keyword)
+    {
+        return service.getSupermarketsByKeyword(keyword);
+    }
+    @GetMapping("/administrator-supermarket/{email}")
+    public SupermarketData getSupermarketByAdministrator(@PathVariable String email)
+    {
+        return service.getSupermarketByAdministrator(email);
+    }
+
+    @PutMapping("/{id}")
+    public SupermarketData updateSupermarket(@PathVariable Long id, @RequestBody SupermarketData supermarketData)
+    {
+        return service.updateSupermarket(supermarketData,id);
+    }
 }

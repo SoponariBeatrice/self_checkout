@@ -5,6 +5,7 @@ import com.example.selfcheckout2.data.BillData;
 import com.example.selfcheckout2.repository.IBillRepository;
 import com.example.selfcheckout2.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class BillService implements IBillService{
     }
 
     @Override
-    public List<BillData> getAllBills(Long idUser) {
+    public List<BillData> getAllBillsByUserId(Long idUser) {
         List<Bill> bills = billRepository.findAll().stream().filter(b -> b.getIdUser().equals(idUser))
          .collect(Collectors.toList());
         List<BillData> billData = new ArrayList<>();
@@ -40,4 +41,16 @@ public class BillService implements IBillService{
         }
         return billData;
     }
+
+    public List<BillData> getAllBills()
+    {
+        List<Bill> bills = billRepository.findAll();
+        List<BillData> billData = new ArrayList<>();
+        for (Bill bill: bills
+        ) {
+            billData.add(new BillData(bill.getProductNames(), bill.getPrices(), bill.getQuantities(), bill.getIdUser(), bill.getTotal(), bill.getDate(), bill.getSupermarket()));
+        }
+        return billData;
+    }
+
 }

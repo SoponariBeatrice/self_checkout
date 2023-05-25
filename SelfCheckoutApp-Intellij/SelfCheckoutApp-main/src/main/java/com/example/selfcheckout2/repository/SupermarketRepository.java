@@ -13,4 +13,6 @@ public interface SupermarketRepository extends JpaRepository<Supermarket, Long> 
 
     @Override
     List<Supermarket> findAll();
+
+    Supermarket findSupermarketByEmailContact(String email);
 }
